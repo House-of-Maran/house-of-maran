@@ -861,3 +861,49 @@ img#logo {
 	color: white;
 }
 
+.modal-content {
+    padding: 30px;
+}
+.modal-content ul.icons {
+    max-width: 495px;
+    padding-left: 0;
+    margin-inline: auto;
+}
+.modal-header .close {
+    position: absolute;
+    font-weight: 300;
+    right: 0;
+    top: 0px;
+}
+.modal-header {
+    position: relative;
+}
+.modal-title {
+    text-align: center;
+    font-size: 25px;
+}
+.modal-footer .btn {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.modal-content ul.icons a{
+	font-size: 50px;
+	margin-inline: 25px;
+}
+.modal {
+    top: 25%;
+}
+
+@media (max-width:767px) {
+.modal-content ul.icons a {
+    font-size: 35px;
+    margin-inline: 14px;
+}
+.modal {
+    top: 25%;
+}
+}
+
